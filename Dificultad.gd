@@ -7,8 +7,8 @@ func _ready():
 	$Media.hide()
 
 func _on_Media_pressed():
-	emit_signal("media")
+	emit_signal("Media")
 
 
 func _on_Dificil_pressed():
-	emit_signal("dificil")
+	emit_signal("Dificil")

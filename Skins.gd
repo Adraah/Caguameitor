@@ -1,6 +1,6 @@
 extends CanvasLayer
-signal skin_drim
-signal skin_toto
+signal skin_Drim
+signal skin_Toto
 
 func _ready():
 	$Drim.hide()
@@ -10,8 +10,8 @@ func _ready():
 
 
 func Skin_toto():
-	emit_signal("skin_toto")
+	emit_signal("skin_Toto")
 
 
 func Skin_drim():
-	emit_signal("skin_drim")
+	emit_signal("skin_Drim")

@@ -1,6 +1,6 @@
 extends CanvasLayer
-signal media
-signal dificil
+signal Media
+signal Dificil
 
 func _ready():
 	$Dificil.hide()

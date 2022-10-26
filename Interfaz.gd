@@ -15,7 +15,7 @@ func Game_Over():
 	$Button.show()
 	$Skins.show()
 	$Dificultad.show()
-	$Mensaje.text = "Nambe Pa Bien Pata"
+	$Mensaje.text = "Fin del juego"
 	$Mensaje.show()
 
 func update_score(Puntos):

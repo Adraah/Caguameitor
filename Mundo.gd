@@ -12,7 +12,7 @@ func nuevo_juego():
 	$Dificultad._ready()
 	$Player.Inicio($PositionInicio.position)
 	$InicioTimer.start()
-	$Interfaz.mostrar_mensaje(":(")
+	$Interfaz.mostrar_mensaje("Fin")
 	$Interfaz.update_score(Score)
 	
 

@@ -6,7 +6,7 @@ var Limite
 signal Golpe
 
 func _ready():
-	hide() #Ocultar personaje
+	hide() 
 	Limite = get_viewport_rect().size #Guarda el valor de la pantalla
 
 
